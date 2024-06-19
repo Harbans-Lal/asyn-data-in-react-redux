@@ -14,7 +14,7 @@ export const Header = () => {
   return (
     <div className='header'>
         <h2>React redux project</h2>
-        <p>This is simple project that fect the data from the api</p>
+        <p>This is simple project that fetch the data from the api</p>
         <input type='text' onChange={(e)=> setSearch(e.target.value)} placeholder='search post' value={search} />
         <button onClick={handleClick}>Search</button>
     </div>
